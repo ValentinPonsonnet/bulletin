@@ -5,14 +5,20 @@ let data =
         "Français :": 
         { 
           "Professeur" : "Mme. VASEQUEZ",
-          "notes": [8, 5, 4, 7, 2],
+          "notes": [11, 10, 9, 10, 12],
           "Comment": "Valentin est un élève moyen mais très discret !",
         },
-        "Mathématique :": 
+        "Mathématique (Géométrie) :": 
         {
           "Professeur" : "M. PERCIN",
-          "notes": [1, 1, 2, 5, 9],
-          "Comment": "Valentin ne sait pas faire une simple opération... !",
+          "notes": [10, 10, 10, 10, 10],
+          "Comment": "Valentin se débrouille bien !",
+        },
+        "Mathématique (Algèbre) :":
+        {
+          "Professeur" : "M.VANCON",
+          "notes" : [2, 3, 4, 6, 7],
+          "Comment" : "Valentin à beaucoup de mal mais fait comme il peut ! Continuer à perceverer !"
         },
         "Histoire :": 
         {
@@ -43,7 +49,7 @@ let data =
           "Professeur" : "Mme. CHARLES",
           "notes" : [1, 2, 1, 5, 3],
           "Comment":"Valentin parle anglais aussi bien qu'une vache espagnole !",
-        }
+        },
     },
 }
 
