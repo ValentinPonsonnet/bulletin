@@ -69,17 +69,17 @@ function template(data)
   {
      let modele =`<div class="bloc">
         <h2>${Object.keys(data.bulletin)[i]}</h2>
-        <p>Professeur : ${Object.values(data.bulletin)[i].Professeur}</p>
+        <p>Profes : ${Object.values(data.bulletin)[i].Professeur}</p>
         <p>Notes : ${Object.values(data.bulletin)[i].notes.join(" / ")}</p>
         <p>Moyenne : ${moyenne()}</p>
         <p>Comment : ${Object.values(data.bulletin)[i].Comment}</p>
       </div>`;
 
-              let element = document.createElement('section');
-              element.className= "Matière";
-              element.innerHTML = modele;
-              let body = document.body;
-              body.appendChild(element);
+      let element = document.createElement('section');
+      element.className= "Matière";
+      element.innerHTML = modele;
+      let body = document.body;
+      body.appendChild(element);
 
   }
 }
