@@ -69,7 +69,7 @@ function template(data)
   {
      let modele =`<div class="bloc">
         <h2>${Object.keys(data.bulletin)[i]}</h2>
-        <p>Prof : ${Object.values(data.bulletin)[i].Professeur}</p>
+        <p>Professeur : ${Object.values(data.bulletin)[i].Professeur}</p>
         <p>Notes : ${Object.values(data.bulletin)[i].notes.join(" / ")}</p>
         <p>Moyenne : ${moyenne()}</p>
         <p>Comment : ${Object.values(data.bulletin)[i].Comment}</p>
