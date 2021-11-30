@@ -33,46 +33,50 @@ let data =
 {
     "bulletin": 
     {
-        "Francais": 
+        "Français": 
         { 
-          "Prof" : "VASEQUEZ",
+          "Prof" : "Mme. VASEQUEZ",
           "notes": [8, 5, 4, 7, 2],
-          "Comment": "Elève moyen mais très discret !",
+          "Comment": "Valentin est un élève moyen mais très discret !",
         },
-        "Math": 
+        "Mathématique": 
         {
-          "Prof" : "PERCIN",
-          "notes": [12, 15, 14, 7, 2],
-          "Comment": "Ne sait pas faire une simple opération... !",
+          "Prof" : "M. PERCIN",
+          "notes": [1, 1, 2, 5, 9],
+          "Comment": "Valentin ne sait pas faire une simple opération... !",
         },
         "Histoire": 
         {
-          "Prof" :"FAURE",
+          "Prof" :"M. FAURE",
           "notes" : [2, 4, 8, 15, 6],
-          "Comment": " Ne s'interresse pas à notre histoire...",
+          "Comment": "Valentin ne s'interresse pas à notre histoire...",
         },
         "Géographie" :
         {
-          "Prof" :"FAURE",
+          "Prof" :"M. FAURE",
           "notes" : [14, 7, 5, 12, 4],
-          "Comment" : "Est un veritable GPS humain ! Félicitation !"
+          "Comment" : "Valentin est un veritable GPS humain ! Félicitation !"
         },
         "Science Naturel" :
         {
-          "Prof" :"PERRY",
+          "Prof" :"Mme. PERRY",
           "notes": [14, 5, 9, 20, 12],
-          "Comment":"Intéresser par les sciences et ça se voit !"
+          "Comment":"Valentin est intéresser par les sciences et ça se voit !"
         },
         "Physique-Chimie" :
         {
-          "Prof" : "LeBlanc",
+          "Prof" : "Mme. TISSERAND",
           "notes" : [18, 17, 16, 15, 18],
           "Comment": "Excellent !"
+        },
+        "Anglais" :
+        {
+          "Prof" : "Mme. CHARLES",
+          "notes" : [1, 2, 1, 5, 3],
+          "Comment":"Valentin parle anglais aussi bien qu'une vache espagnole !",
         }
     },
 }
-
-
 
 function template(data)
 {
