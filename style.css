@@ -5,6 +5,8 @@
 }
 .Matière
 {
+    margin: 1%;
+    width: auto;
     border: solid 1px black; 
 }
 h2
@@ -15,4 +17,11 @@ h2
 p
 {
     margin-left: 1%;
+}
+@media screen and (max-width : 800px) 
+{
+    .Matière
+    {
+        margin: 1%;
+    }
 }
